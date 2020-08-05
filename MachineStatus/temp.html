@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--html 基于 https://github.com/cppla/ServerStatus -->
 <html>
 
 <head>
@@ -9,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="zshot">
     <meta name="author" content="BotoX">
-    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/Taygetus/CDN@master/MachineStatus/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://cdn.jsdelivr.net/gh/Taygetus/CDN@master/MachineStatus/favicon.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Taygetus/CDN@master/MachineStatus/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Taygetus/CDN@master/MachineStatus/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Taygetus/CDN@master/MachineStatus/light.css" title="light">
@@ -26,12 +26,6 @@
         <div class="navbar-inner">
             <div class="container">
                 <div class="navbar-header">
-                    <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
                     <a href="#" class="navbar-brand">zshot</a>
                 </div>
             </div>
@@ -43,29 +37,37 @@
             <thead>
                 <tr>
                     <th id="name">节点名</th>
-                    <th id="type">虚拟化</th>
-                    <th id="location">位置</th>
-                    <th id="uptime">在线时间</th>
-                    <th id="load">负载</th>
-                    <th id="network">网络 ↓|↑</th>
-                    <th id="traffic">流量 ↓|↑</th>
-                    <th id="cpu">处理器</th>
-                    <th id="ram">内存</th>
+                    <th id="ip">IP</th>
                     <th id="hdd">硬盘</th>
-                    <th id="ping">丢包率(CU|CT|CM)</th>
+                    <th id="memory">内存</th>
+                    <th id="netio">流量 ↓|↑</th>
+                    <th id="starttime">启动时间</th>
+                    <th id="reporttime">上报时间</th>
                 </tr>
             </thead>
             <tbody id="servers">
-                <!-- Servers here \o/ -->
+                <!--<tr>
+                    <th id="name">测试机器</th>
+                    <th id="ip">192.168.0.199|222.94.181.145</th>
+                    <th id="hdd">60G|1T</th>
+                    <th id="memory">6.5G|8G</th>
+                    <th id="netio">10G|12G</th>
+                    <th id="starttime">2020-07-29 10:41:02</th>
+                    <th id="reporttime">2020-07-30 10:41:02</th>
+                </tr>
+                <tr>
+                    <th id="name">测试机器</th>
+                    <th id="ip">192.168.0.199|222.94.181.145</th>
+                    <th id="hdd">60G|1T</th>
+                    <th id="memory">6.5G|8G</th>
+                    <th id="netio">10G|12G</th>
+                    <th id="starttime">2020-07-29 10:41:02</th>
+                    <th id="reporttime">2020-07-30 10:41:02</th>
+                </tr>-->
             </tbody>
         </table>
         <br />
     </div>
-
-    <!--<script src="https://tz.cloudcpp.com/js/jquery.min.js"></script>
-    <script src="https://tz.cloudcpp.com/js/bootstrap.min.js"></script>
-    <script src="https://tz.cloudcpp.com/js/serverstatus.js"></script>
-    -->
 </body>
 
 </html>
