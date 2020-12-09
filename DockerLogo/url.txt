@@ -6,4 +6,4 @@ https://cdn.jsdelivr.net/gh/Taygetus/CDN@master/DockerLogo/Mqtt.png
 https://cdn.jsdelivr.net/gh/Taygetus/CDN@master/DockerLogo/nps.png
 https://cdn.jsdelivr.net/gh/Taygetus/CDN@master/DockerLogo/verysync.png
 https://cdn.jsdelivr.net/gh/Taygetus/CDN@master/DockerLogo/bilibili.ico
-https://cdn.jsdelivr.net/gh/Taygetus/CDN@master/DockerLogo/filebrowser.png
+https://cdn.jsdelivr.net/gh/Taygetus/CDN@master/DockerLogo/filebrowserlogo.png
